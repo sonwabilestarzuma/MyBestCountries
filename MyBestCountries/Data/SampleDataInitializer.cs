@@ -75,7 +75,30 @@ namespace MyBestCountries.Data
                     ForWork = false,
                     ForFun = true
                 });
-
+                _context.Visits.Add(new Visit()
+                {
+                    Id = 0,
+                    UserName = "thulasizwestar@gmail.com",
+                    Country = "South Africa",
+                    City = "Cape Town",
+                    VisitDate = new DateTime(2014, 6, 4),
+                    Duration = 31,
+                    Notes = "Start of our round-the-world trip",
+                    ForWork = true,
+                    ForFun = true
+                });
+                _context.Visits.Add(new Visit()
+                {
+                    Id = 0,
+                    UserName = "sonwabilestar@gmail.com",
+                    Country = "France",
+                    City = "Paris",
+                    VisitDate = new DateTime(2014, 6, 4),
+                    Duration = 31,
+                    Notes = "FIFA Womens Wolrd Cup 2019 trip",
+                    ForWork = true,
+                    ForFun = true
+                });
                 _context.SaveChanges();
 
             }

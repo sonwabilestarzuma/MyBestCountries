@@ -1,0 +1,24 @@
+﻿<li>
+    <a asp-controller="Home" asp-action="Index" class="@(Url.Action("Index", "Home") == Url.Action() ? "br-red" : "br-blue")">
+        <!-- Link Icon -->
+        <i class="fa fa-home link-icon"></i>
+        <!-- Link Title -->
+        <span class="link-title">Home</span>
+    </a>
+</li>
+<li>
+    <a asp-controller="Home" asp-action="Contact" class="@(Url.Action("Contact", "Home") == Url.Action() ? "br-red" : "br-blue")">
+        <!-- Link Icon -->
+        <i class="fa fa-envelope-o link-icon"></i>
+        <!-- Link Title -->
+        <span class="link-title">Contact</span>
+    </a>
+</li>
+<li>
+    <a asp-controller="Home" asp-action="About" class="@(Url.Action("About", "Home") == Url.Action() ? "br-red" : "br-blue")">
+        <!-- Link Icon -->
+        <i class="fa fa-search link-icon"></i>
+        <!-- Link Title -->
+        <span class="link-title">About</span>
+    </a>
+</li>
