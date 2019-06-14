@@ -117,6 +117,7 @@
         };
 
         function deleteActualVisit(visit, deferred) {
+
             $http.delete(_baseUrl + "/" + visit.id)
                 .then(function (success) {
                     var index = _.indexOf(visit);

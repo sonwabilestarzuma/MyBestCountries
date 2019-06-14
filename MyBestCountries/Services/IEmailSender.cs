@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MyBestCountries.Services
 {
-    public interface IEmailSender
+  public interface IEmailSender
     {
         Task SendEmailAsync(string email, string subject, string message);
     }

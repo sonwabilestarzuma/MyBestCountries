@@ -9,7 +9,7 @@ using MyBestCountries.Data;
 using MyBestCountries.Models;
 
 
-namespace MyBestCountries.Controllers
+namespace MyBestCountries.Api
 {
     [Authorize]
     [Route("api/visits")]

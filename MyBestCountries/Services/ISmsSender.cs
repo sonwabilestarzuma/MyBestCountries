@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
-namespace MyBestCountries.Services
+namespace MyBestCountries.Controllers
 {
     public interface ISmsSender
     {
-        Task SendSmsAsync(string number, string message);
+        Task SendSmsAsync(string v, object message);
     }
 }
